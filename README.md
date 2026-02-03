@@ -87,19 +87,21 @@ pip install -r requirements.txt
 Create a .env file in the project root:
 
 ### PostgreSQL
+```bash
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=secret
 POSTGRES_HOST=localhost
 POSTGRES_PORT=5432
 POSTGRES_DB=fastapi_db
-
+```
 ### Oracle
+```bash
 ORACLE_USER=app_user
 ORACLE_PASSWORD=secret
 ORACLE_HOST=localhost
 ORACLE_PORT=1521
 ORACLE_SERVICE=ORCLPDB1
-
+```
 
 #### ✅ Tip: you can also add a .env.example file (committed) and keep .env private (ignored).
 
