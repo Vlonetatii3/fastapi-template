@@ -1,0 +1,17 @@
+##Principal framework##
+fastapi
+uvicorn
+
+##Database##
+SQLAlchemy
+
+#--ORACLE
+oracledb
+
+#--PostgreSQL 
+psycopg
+
+
+##Respuestas y utilidades
+pydantic
+pydantic-core
